@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gerado pelo Microsoft Visio, SVG Export mc.svg Página-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.8376in" height="4.8376in"
+		viewBox="0 0 348.307 348.307" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1046">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#785800;stroke-width:4.5}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#007749;font-family:Dubai Light;font-size:2.50001em;letter-spacing:0.166666em}
+		.st4 {fill:#007749;stroke:#007749;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st5 {fill:#007749;stroke:#007749;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Página-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(22.5,-22.5)">
+			<title>Quadrado</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="45" width="303.307" height="303.307" class="st1"/>
+		</g>
+		<g id="shape2-3" v:mID="2" v:groupContext="shape" transform="translate(31.7126,-84.7047)">
+			<title>Planilha.53</title>
+			<desc>Margem Certa</desc>
+			<v:userDefs/>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="141.732" cy="338.307" width="283.48" height="20"/>
+			<rect x="0" y="328.307" width="283.465" height="20" class="st2"/>
+			<text x="5.05" y="347.31" class="st3" v:langID="1046"><v:paragraph v:horizAlign="1"/><v:tabList/>MARGEM CERTA</text>		</g>
+		<g id="group3-6" transform="translate(37.3819,-119.735)" v:mID="3" v:groupContext="group">
+			<title>Planilha.54</title>
+			<g id="shape4-7" v:mID="4" v:groupContext="shape">
+				<title>Planilha.27</title>
+				<path d="M0 348.31 L0.58 190.43 L15.61 190.43 L77.49 307.25 L140.3 190.43 L154.41 190.43 L154.41 348.31 L141.69 348.31
+							 L141.69 210.14 L83.86 320.55 L69.98 320.55 L14.46 211.82 L14.46 348.31 L0 348.31 Z" class="st4"/>
+			</g>
+			<g id="shape5-9" v:mID="5" v:groupContext="shape" transform="translate(165.977,-118.044)">
+				<title>Planilha.50</title>
+				<path d="M107.57 340.26 A81.3319 78.9401 -0 0 0 0 320.01 L0 336.44 A67.4523 65.4687 180 0 1 96.43 348.31 L107.57
+							 340.26 Z" class="st5"/>
+			</g>
+			<g id="shape6-11" v:mID="6" v:groupContext="shape" transform="translate(165.977,-1.44416)">
+				<title>Planilha.51</title>
+				<path d="M0 338.21 A81.3319 78.9401 -0 0 0 107.57 317.96 L96.43 309.91 A67.4523 65.4687 180 0 1 -0 321.77 L0 338.21
+							 Z" class="st5"/>
+			</g>
+		</g>
+	</g>
+</svg>

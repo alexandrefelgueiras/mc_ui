@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gerado pelo Microsoft Visio, SVG Export view.svg Icons -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="0.666667in" height="0.666667in" viewBox="0 0 48 48"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st2">
+	<v:documentProperties v:langID="1046" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#0033cc;stroke:#0033cc;stroke-linecap:butt;stroke-width:1.5}
+		.st2 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Icons</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="19" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
+		<g id="group1-1" transform="translate(9,-3)" v:mID="1" v:groupContext="group">
+			<title>SVGRepo_iconCarrier</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(21,-33)">
+				<title>Planilha.2</title>
+				<path d="M0 39.9 L0 48 L8.1 48 L0 39.9 Z" class="st1"/>
+			</g>
+			<g id="group3-4" v:mID="3" v:groupContext="group">
+				<title>Planilha.3</title>
+				<g id="shape4-5" v:mID="4" v:groupContext="shape" transform="translate(10.5,-13.5)">
+					<title>Planilha.4</title>
+					<path d="M4.5 39 C1.95 39 0 40.95 0 43.5 C0 46.05 1.95 48 4.5 48 C7.05 48 9 46.05 9 43.5 C9 40.95 7.05 39 4.5
+								 39 ZM4.5 45 C3.6 45 3 44.4 3 43.5 C3 42.6 3.6 42 4.5 42 C5.4 42 6 42.6 6 43.5 C6 44.4 5.4 45 4.5
+								 45 Z" class="st1"/>
+				</g>
+				<g id="shape5-7" v:mID="5" v:groupContext="shape">
+					<title>Planilha.5</title>
+					<path d="M26.25 18 L19.5 18 C18.6 18 18 17.4 18 16.5 L18 6 L1.5 6 C0.6 6 0 6.6 0 7.5 L0 46.5 C0 47.4 0.6 48 1.5
+								 48 L28.5 48 C29.4 48 30 47.4 30 46.5 L30 21.75 C30 19.65 28.35 18 26.25 18 ZM28.2 30.9 C28.05 31.2
+								 22.35 39 15 39 C7.65 39 1.95 31.2 1.8 30.9 C1.5 30.45 1.5 29.7 1.8 29.1 C1.95 28.8 7.65 21 15 21
+								 C22.35 21 28.05 28.8 28.2 29.1 C28.65 29.7 28.65 30.3 28.2 30.9 Z" class="st1"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

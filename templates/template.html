@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Margem Certa
+    </title>
+    <link rel="icon" href='../static/img/mc_title.svg' type="image/svg+xml">
+    <link rel="stylesheet" href="../static/estilos.css">
+    <script defer src="../static/script.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+            <img src="../static/img/mc.svg" width="80">
+        </div>
+        <div>
+            <h1>Margem Certa</h1>
+            <h2>Defina, Calcule, Lucre!</h2>
+
+        </div>
+    </header>
+
+    <div class="geral">
+
+        <div class="table-container">
+            <fieldset class="table-container-fieldset">
+                <legend>
+                    <h1>Gerenciador de Itens</h1>
+                </legend>
+                <table>
+                    <tbody>
+                        {% if mcs %}
+                        <tr>
+                            <th>Cliente</th>
+                            <th>Prop/Item</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>M.C.</th>
+                            <th colspan="2">Ações<br>
+                                <button type="button" id="btn_add"
+                                    onclick=window.location.href="{{ url_for('novo')}}"></button>
+                                <button type="button" id="btn_home"
+                                    onclick=window.location.href="{{ url_for('home') }}"></button>
+                            </th>
+                        </tr>
+                        {% for mc in mcs %}
+                        <tr>
+                            <td>{{ mc['cliente'].title() }}</td>
+                            <td>{{ mc['proposta'] ~ '/' ~ mc['item'] }}</td>
+                            <td>{{ mc['descricao'].title() }}</td>
+                            <td>R$ {{ mc['preco']|brl_format }}</td>
+                            <td>{{ mc['margem_rel']|float|round(0) }}%</td>
+                            <td><button type="button" id="btn_view"
+                                    onclick=window.location.href="{{url_for('ver', id=mc.id)}}"></button>
+                            </td>
+                            <td><button type="button" id="btn_del"
+                                    onclick=window.location.href="{{url_for('deletar', id=mc.id)}}"></button>
+                            </td>
+                        </tr>
+
+                        {% endfor %}
+                        {% else %}
+                        <tr>
+                            <td colspan="10"><em>Sem Itens Cadastrados</em></td>
+                        </tr>
+                        {% endif %}
+
+                    </tbody>
+                </table>
+            </fieldset>
+
+        </div>
+
+        {% block conteudo %}
+
+        {% endblock %}
+
+    </div>
+</body>

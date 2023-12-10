@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gerado pelo Microsoft Visio, SVG Export logoMargemCerta.svg Page-2 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.30262in" height="2.69625in"
+		viewBox="0 0 309.788 194.13" xml:space="preserve" color-interpolation-filters="sRGB" class="st3">
+	<v:documentProperties v:langID="1046" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#007749;stroke:#007749;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st2 {fill:#007749;stroke:#007749;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="12" v:index="4" v:groupContext="foregroundPage">
+		<title>Página-2</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group54-1" transform="translate(18.125,-18.125)" v:mID="54" v:groupContext="group">
+			<title>Planilha.54</title>
+			<g id="shape27-2" v:mID="27" v:groupContext="shape">
+				<title>Planilha.27</title>
+				<path d="M0 194.13 L0.58 36.25 L15.61 36.25 L77.49 153.07 L140.3 36.25 L154.41 36.25 L154.41 194.13 L141.69 194.13
+							 L141.69 55.97 L83.86 166.37 L69.98 166.37 L14.46 57.65 L14.46 194.13 L0 194.13 Z" class="st1"/>
+			</g>
+			<g id="shape50-4" v:mID="50" v:groupContext="shape" transform="translate(165.977,-118.044)">
+				<title>Planilha.50</title>
+				<path d="M107.57 186.08 A81.3319 78.9401 -0 0 0 -0 165.83 L0 182.27 A67.4523 65.4687 0 0 1 96.43 194.13 L107.57 186.08
+							 Z" class="st2"/>
+			</g>
+			<g id="shape51-6" v:mID="51" v:groupContext="shape" transform="translate(165.977,8.52651E-14)">
+				<title>Planilha.51</title>
+				<path d="M0 182.59 A81.3319 78.9401 -180 0 0 107.57 162.34 L96.43 154.29 A67.4523 65.4687 0 0 1 -0 166.16 L0 182.59
+							 Z" class="st2"/>
+			</g>
+		</g>
+	</g>
+</svg>

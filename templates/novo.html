@@ -1,0 +1,65 @@
+{% extends "template.html" %}
+{% block conteudo %}
+<div class="form-container">
+    <form class="formulario" id="form-novo" action="{{url_for('add_mc')}}" method="post"
+        data-redirect="{{ url_for('home') }}">
+        <fieldset class="form-fieldset-novo">
+            <legend id="form-titulo">
+                <h3>{{ titulo }}</h3>
+            </legend>
+            <div class="form-group-container">
+
+                <div class="form-group">
+                    <label for="cliente">Cliente</label>
+                    <input class="input-normal" type="text" name="cliente" id="cliente">
+                    <small>(Nome fantasia do cliente)</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao_item">Descrição:</label>
+                    <input class="input-normal" type="text" name="descricao" id="descricao">
+                    <small>(Descrição curta do item)</small>
+                </div>
+            </div>
+            <div class="form-group-container">
+
+                <div class="form-group">
+                    <label for="proposta">Proposta Núm.</label>
+                    <input class="input-normal" type="number" name="proposta" id="proposta">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="item">Item Núm.</label>
+                    <input class="input-normal" type="number" name="item" id="item">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="preco">Preço</label>
+                    <input class="input-normal" step="0.01" type="number" name="preco" id="preco">
+                </div>
+
+                <div class="form-group">
+                    <label for="custo">Custo</label>
+                    <input class="input-normal" step="0.01" type="number" name="custo" id="custo">
+                </div>
+
+                <div class="form-group">
+                    <label for="margem_abs">MC Absoluta</label>
+                    <input class="input-calc" type="number" name="margem_abs" id="margem_abs" readonly tabindex="-1">
+                </div>
+
+                <div class="form-group">
+                    <label for="margem_rel">MC(%)</label>
+                    <input class="input-calc" type="number" name="margem_rel" id="margem_rel" readonly tabindex="-1">
+                </div>
+            </div>
+        </fieldset>
+        <div class="form-navegar">
+            <button type="submit" id="btn_send"></button>
+            <button type="button" id="btn_home" onclick=window.location.href="{{ url_for('home') }}"></button>
+        </div>
+    </form>
+</div>
+{% endblock %}
